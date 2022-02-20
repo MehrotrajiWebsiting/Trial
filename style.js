@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded",function(event){
 		$ajaxutils.sendGetRequest("name.txt",function(request){
 			var name=request.responseText;
 			document.querySelector("#content")
-			.innerHTML="<h2> Hi"+name+"!</h2>";	
+			.innerHTML="<h2>Hi "+name+"!</h2>";	
 		})
 	})
 });
